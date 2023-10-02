@@ -1,0 +1,186 @@
+/* Resetting font families for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling the header */
+header {
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    letter-spacing: 10px;
+    padding: 20px;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+#lyrics p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling the lines individually */
+#lyrics p:nth-child(1) {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFA500;
+    text-transform: uppercase;
+}
+
+#lyrics p:nth-child(2) {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #00BFFF;
+}
+
+#lyrics p:nth-child(3),
+#lyrics p:nth-child(4) {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #333;
+}
+
+#lyrics p:nth-child(5) {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #00BFFF;
+}
+
+#lyrics p:nth-child(6),
+#lyrics p:nth-child(7) {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #333;
+}
+
+#lyrics p:nth-child(8) {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #333;
+}
+
+#lyrics span{
+    color: #e0960e;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+#lyrics p:nth-child(9), #lyrics p:nth-child(11),#lyrics p:nth-child(13),
+#lyrics p:nth-child(14),#lyrics p:nth-child(15), #lyrics p:nth-child(16),
+#lyrics p:nth-child(27), #lyrics p:nth-child(29),#lyrics p:nth-child(31),
+#lyrics p:nth-child(32),#lyrics p:nth-child(33), #lyrics p:nth-child(34),
+#lyrics p:nth-child(35),#lyrics p:nth-child(36),#lyrics p:nth-child(37),
+#lyrics p:nth-child(38),#lyrics p:nth-child(39),#lyrics p:nth-child(40),
+#lyrics p:nth-child(41),#lyrics p:nth-child(42),#lyrics p:nth-child(43),
+#lyrics p:nth-child(44),#lyrics p:nth-child(45),#lyrics p:nth-child(47),
+#lyrics p:nth-child(49){
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-weight: bold;
+    color: #FFA500;
+    letter-spacing: 2px;
+    font-size: x-large;
+}
+
+#lyrics p:nth-child(10),
+#lyrics p:nth-child(12){
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-weight: bold;
+    color: #e0960e;
+    letter-spacing: 2px;
+    font-size: x-large;
+}
+
+#lyrics p:nth-child(17),
+#lyrics p:nth-child(18) {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#lyrics p:nth-child(19) {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #00BFFF;
+}
+
+#lyrics p:nth-child(20) {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: black;
+}
+
+#lyrics p:nth-child(21) {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FFA500;
+}
+
+#lyrics p:nth-child(22) {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #00BFFF;
+}
+
+#lyrics p:nth-child(23) {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: black;
+}
+
+/* Styling the quoted text within double quotes */
+#lyrics p:nth-child(23) q {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #FFA500;
+}
+
+#lyrics p:nth-child(24) {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #00BFFF;
+}
+
+#lyrics p:nth-child(25) {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: black;
+}
+
+#lyrics p:nth-child(26){
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-weight: bold;
+    color: #FFA500;
+    letter-spacing: 2px;
+    font-size: x-large;
+}
+
+#lyrics p:nth-child(28),#lyrics p:nth-child(30),#lyrics p:nth-child(46),
+#lyrics p:nth-child(48),#lyrics p:nth-child(50),#lyrics p:nth-child(52){
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-weight: bold;
+    color: #e0960e;
+    letter-spacing: 2px;
+    font-size: x-large;
+}
+
+#lyrics p:nth-child(51) {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: black;
+}
